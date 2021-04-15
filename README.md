@@ -1,11 +1,22 @@
-# Unit 17: NoSQL
+# Fitness Tracker
 
 ## Overview
-In the late 90s and early 2000s, developers began to explore database options that allowed their web applications to handle unstructured data to meet the growing and ever-changing demands of users and address the limitations of the relational model. While these alternative databases existed for decades prior, they didn’t receive the label NoSQL until this time period.  
+Full-stack workout tracker application.
 
-The structure of a NoSQL database is something other than a table. There are several different types of NoSQL databases, such as key-value and graph. In this unit we will learn MongoDB, a document-oriented NoSQL database. MongoDB documents correspond to a row, or record, in SQL, but unlike rows, documents are analogous to JSON objects. You can see why MongoDB is a popular choice for Node.js developers! 
+## Getting Started
 
-Rather than object-relational mapping, we will implement object-_document_ mapping, or ODM, with Mongoose.js. 
+In the project directory, you can run:
+
+### `npm i`
+
+Because Heroku no longer supports mongoDB,  you will need to clone the repo and run the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+
+### `npm start`
+
+Runs the app in development mode.
 
 ## Key Topics
 * NoSQL
@@ -20,21 +31,11 @@ You will be employer-ready if you can answer the following questions:
 2. What is object-document mapping? 
 3. What is the equivalent of Sequelize associations in Mongoose.js? 
 
-## Learning Objectives
-You will be employer-competitive if you are able to:
-* Explain the difference between SQL and NoSQL
-* Configure Heroku for deployment of a Node.js application using MongoDB
-* Explain and execute CRUD methods with MongoDB, using both the  and Mongoose.js
-* Use both a GUI and the Mongo command prompt to interface with a database
-* Integrate Mongoose in a full-stack web application
-* Create query builders to populate documents using refs
+## Link
+https://github.com/inalo1/HW17-FitnessTracker
 
-## Homework: Workout Tracker
-Create and deploy full-stack workout tracker application. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
-
-## Helpful Links
-* [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
-* [MongoDB Website](https://www.mongodb.com/)
-* [Robo 3T Website](https://robomongo.org/download)
-* [MongoJS Documentation](https://www.npmjs.com/package/mongojs)
-* [Mongoose Documentation](http://mongoosejs.com/docs/guide.html)
+## Overview
+![Screenshot 2021-04-15 025418](https://user-images.githubusercontent.com/73044038/114835333-14d41d00-9d97-11eb-9250-7601a3a2367f.png)
+![Screenshot 2021-04-15 025507](https://user-images.githubusercontent.com/73044038/114835338-14d41d00-9d97-11eb-8da1-5bbab765451d.png)
+![Screenshot 2021-04-15 025557](https://user-images.githubusercontent.com/73044038/114835339-156cb380-9d97-11eb-9854-31e6c944ee1d.png)
+![Screenshot 2021-04-15 025621](https://user-images.githubusercontent.com/73044038/114835341-156cb380-9d97-11eb-80d9-91a8ec499c1e.png)
